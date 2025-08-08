@@ -145,7 +145,7 @@ SQL Query:
 # --- Helper Functions ---
 async def get_sql_from_llm(question: str) -> str | None:
     """Uses Gemini to convert a natural language question into a SQL query."""
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-pro')
     prompt = IMPROVED_PROMPT_TEMPLATE.format(SCHEMA=SCHEMA, question=question)
 
     try:
