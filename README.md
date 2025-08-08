@@ -134,7 +134,7 @@ Your folder structure should look like this:
    - Install and **sign in** to your account.
 
 2. **Open Developer Settings**  
-   - Click your **Profile Icon** (top right) → **Settings** → **Developer**.
+   - Click your **Profile Icon** (bottom left) → **Settings** → **Developer**.
 
 3. **Edit MCP Configuration**  
    - Click **Edit Raw MCP Config**.
